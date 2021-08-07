@@ -1,0 +1,8 @@
+TOTAL = 0
+for i in range (2):
+    COD, NUMBER_PIECES, VALUE_UNITARY= input().split(' ')
+    COD = int(COD)
+    NUMBER_PIECES = int(NUMBER_PIECES)
+    VALUE_UNITARY = float(VALUE_UNITARY)
+    TOTAL = TOTAL + (NUMBER_PIECES * VALUE_UNITARY)
+print(f'VALOR A PAGAR: R$ {TOTAL:.2f}')
