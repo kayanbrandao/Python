@@ -1,0 +1,6 @@
+N = int(input())
+H = int(N / 3600)
+N = N - (H * 3600)
+M = int(N / 60)
+S = N - (M * 60)
+print(f'{H}:{M}:{S}')
