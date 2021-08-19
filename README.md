@@ -1,2 +1,2 @@
 # Python
- Atividades realizadas em Python
+ Atividades realizadas pela plataforma URI
